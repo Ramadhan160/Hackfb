@@ -65,7 +65,7 @@ def moch_putra():
     time.sleep(0.1)
 
 putra=input("\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ")
-    if putra == "1" or putra =="01":
+if putra == "1" or putra =="01":
          mbasic = 'https://mbasic.facebook.com{}'
          global die,check,result, count
          id = []
