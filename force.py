@@ -1,5 +1,5 @@
 #!usr
-# -*- coding: UTF-8 -*-
+# -*- coding: UTF-9 -*-
 # Hayo mau ngapain
 
 
