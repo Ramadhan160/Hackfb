@@ -8,7 +8,7 @@ $ pkg install git
 
 $ pkg install python2
 
-$ git clone https://github.com/Putra-DD/fbbrute
+$ git clone                https://github.com/Ramadhan160/Hackfb
 
 $ cd fbbrute
 
