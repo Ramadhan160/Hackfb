@@ -1,5 +1,5 @@
 #!usr
-# -*- coding: UTF-9 -*-
+# -*- coding: UTF-8 -*-
 # Hayo mau ngapain
 
 
@@ -59,7 +59,7 @@ def pil():
                 print GG+" "
                 g = str(raw_input("[?] Coba Lagi ?\033[93;1m[y/n]: "))
                 if g == 'y' or g == 'Y':
-                    os.system('python2 force.py')
+                    os.system('python2 Hackfb.py')
                 elif g == 'n' or g == 'N':
                     print wd+"Keluar dari program..."
                     sys.exit()
