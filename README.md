@@ -51,13 +51,13 @@ Cr4ck multi brute force
 $ pkg update && pkg upgrade
 $ pkg install python && pkg install python2
 $ pkg install git
-$ git clone https://github.com/ramadhan16/Hackfb
+$ git clone https://github.com/ramadhan160/Hackfb
 ```
 ### And Cr4ck this script
 ```bash
 $ cd Hackfb
 $ bash setup.sh
-$ python Hackfb.py
+$ python Duda.py
 ```
 
 ### Screenshot
