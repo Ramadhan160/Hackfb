@@ -23,14 +23,14 @@ Cr4ck multi brute force
   <a href="https://github.com/PutraDd/Cr4ck">
     <img alt="Top Language" src="https://img.shields.io/github/languages/top/PutraDd/Cr4ck.svg"/>
   </a>
-  <a href="https://github.com/PutraDd/Cr4ck">
+  <a href="https://github.com/PutraDD/Cr4ck">
     <img alt="Search" src="https://img.shields.io/github/search/Dudapy/Craker/Cr4ck.svg"/>
   </a>
   <a href="https://github.com/PutraDD/Cr4ck">
     <img alt="Repo Size" src="https://img.shields.io/github/repo-size/PutraDD/Cr4ck.svg"/>
   </a>
   <a href="https://github.com/PutraDD/Cr4ck">
-    <img alt="Starts" src="https://img.shields.io/github/stars/Yayan-XD/Cr4ck.svg"/>
+    <img alt="Starts" src="https://img.shields.io/github/stars/PutraDD/Cr4ck.svg"/>
   </a>
   <a href="https://github.com/PutraDD/Cr4ck">
     <img alt="Forks" src="https://img.shields.io/github/forks/Putra/Cr4ck.svg"/>
@@ -51,7 +51,7 @@ Cr4ck multi brute force
 $ pkg update && pkg upgrade
 $ pkg install python && pkg install python2
 $ pkg install git
-$ git clone https://github.com/ramadhan16) /Hackfb
+$ git clone https://github.com/ramadhan16/Hackfb
 ```
 ### And Cr4ck this script
 ```bash
