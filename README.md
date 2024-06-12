@@ -10,7 +10,7 @@ $ pkg install python2
 
 $ git clone                https://github.com/Ramadhan160/Hackfb
 
-$ cd fbbrute
+$ cd Hackfb
 
 $ pip install requests
 
@@ -18,4 +18,4 @@ $ pip install mechanize
 
 $ pip2 install mechanize
 
-$ python2 force.py
+$ python2 Hackfb.py
