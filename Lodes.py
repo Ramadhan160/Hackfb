@@ -48,8 +48,10 @@ def jembut():
 
 def putradd():
     putra=input("\n\033[00m\t   [\033[96m Press Enter To Return\033[97m ] ")
-    if putra == "":                                                                                                                                            os.system("python Lodes.py")
-    else:                                                                                                                                                      sys.exit("\n\033[1;97m [\033[1;91m•\033[1;97m] \033[1;91mGood Byee :')")
+    if putra == "":                                                                                                                                            
+        os.system("python Lodes.py")
+    else:                                                                                                                                                      
+        sys.exit("\n\033[1;97m [\033[1;91m•\033[1;97m] \033[1;91mGood Byee :')")
 def moch_putra():
     time.sleep(0.1)
     print("\033[97m [\033[96m01\033[97m] Start  Lodes ID")
