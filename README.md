@@ -40,11 +40,11 @@ Cr4ck multi brute force
 
 ### Fitures
 ```
-* Crack ID Grub
-* Crack ID Teman
-* Crack ID Publik
-* Crack ID Dari Link Post
-* Crack ID Dari Pencarian Nama
+* Lodes ID Grub
+* Lodes ID Teman
+* lodes ID Publik
+* Lodes ID Dari Link Post
+* Lodes ID Dari Pencarian Nama
 ```
 ### Install
 ```bash
@@ -57,7 +57,7 @@ $ git clone https://github.com/ramadhan160/Hackfb
 ```bash
 $ cd Hackfb
 $ bash setup.sh
-$ python Duda.py
+$ python Lodes.py
 ```
 
 ### Screenshot
