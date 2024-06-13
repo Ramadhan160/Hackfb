@@ -10,7 +10,7 @@ echo "       ░█▀▀█ ─█▀▀█ ░█─── ─█▀▀█ ▀
 echo "       ░█▀▀▄ ░█▄▄█ ░█─── ░█▄▄█ ░█─" | lolcat 
 echo "       ░█▄▄█ ░█─░█ ░█▄▄█ ░█─░█ ▄█▄" | lolcat
 echo
-pip install requests
+apt install ruby -y
 clear
 echo
 echo
