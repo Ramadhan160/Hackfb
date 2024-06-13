@@ -1,7 +1,6 @@
 #!/bin/bash
 clear
 echo
-echo
 echo "   ▀▀█▀▀ ─█▀▀█ ░█▄─░█ ───░█ ░█─░█ ░█▀▀█" | lolcat
 echo "   ─░█── ░█▄▄█ ░█░█░█ ─▄─░█ ░█─░█ ░█─▄▄" | lolcat
 echo "   ─░█── ░█─░█ ░█──▀█ ░█▄▄█ ─▀▄▄▀ ░█▄▄█" | lolcat
@@ -13,7 +12,6 @@ echo
 apt install ruby -y
 clear
 echo
-echo
 echo "      ╔╗╔═╦═══╦════╦═══╗╔╗╔═╦═══╦═══╦═══╦═╗─╔╦═══╗" | lolcat
 echo "      ║║║╔╣╔═╗║╔╗╔╗║╔═╗║║║║╔╣╔══╣╔═╗║╔═╗║║╚╗║║╔═╗║" | lolcat
 echo "      ║╚╝╝║║─║╠╝║║╚╣║─║║║╚╝╝║╚══╣╚═╝║║─║║╔╗╚╝║║─╚╝" | lolcat
@@ -23,7 +21,6 @@ echo "      ╚╝╚═╩═══╝─╚╝─╚╝─╚╝╚╝╚═�
 echo "
 gem install lolcat
 clear
-echo
 echo
 echo "          ╮╮╱▔▔▔▔╲╭╭╮╭╮╮╱▔▔▔▔╲╭╭╮"╭╮╮╱▔▔▔▔╲╭╭╮| lolcat
 echo "         ╰╲╲▏▂╲╱▂▕╱╱╯╰╲╲▏▂╲╱▂▕╱╱╯╰╲╲▏▂╲╱▂▕╱╱╯" | lolcat
