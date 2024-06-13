@@ -89,7 +89,7 @@ if putra == "1" or putra =="01":
                      if "Apo yang kau pikir kan kontol" in str(ismi):
                              with open("cookies","w") as f:
                                      f.write(cek["cookie"])
-                          else:
+                     else:
                            print("\033[1;97m[\033[1;94m•\033[1;97m] \033[00mUbah bahasa, harap tunggu\033[1;91m!!\033[00m")
                            try:
                                   requests.get(mbasic.format(parser(ismi,"html.parser").find("a",string="Bahasa Indonesia")["href"]),cookies=cek)
