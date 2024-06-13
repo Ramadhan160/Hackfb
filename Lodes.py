@@ -347,7 +347,7 @@ def moch_putra():
          os.system("git pull")
          print("\n \x1b[1;97m[\x1b[1;92m√\x1b[1;97m]\x1b[1;92m Successfully Updated!\n ")
          putradd()
-    elif yayan == "0" or yayan =="00":
+    elif putra == "0" or putra =="00":
          aahh("\n\033[1;92m Thank you for using my tools.\n  Don't forget to subscribe to My YouTube Channel\n\n")
          os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
          exit()                   	
