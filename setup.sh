@@ -12,22 +12,12 @@ echo
 apt install ruby -y
 clear
 echo
-echo "                       .:^^~77~" | lolcat   
-echo "                    .?PB#&&&###5" | lolcat  
-echo "                    G##&&&&&&&BB!" | lolcat
-echo "                   7&&&&&&&&&&BB^" | lolcat 
-echo "                  !P&&&&&&&&##BJ" | lolcat
-echo "                 .PP#@@@@&&##BP." | lolcat  
-echo "                 YPGB&@@@&&#BBY" | lolcat   
-echo "                7GBB&&&&&&#BG7" | lolcat    
-echo "               ~PGBB##BBGGP5^" | lolcat    
-echo "              ~YGBBBBGP55Y7." | lolcat      
-echo "        .   :7YGGGGGGP5YJ^" | lolcat        
-echo "    ...::.^7Y5PGBPP55JJ!." | lolcat         
-echo "    ..^^^7YPGGBBBG5YJ7:" | lolcat           
-echo "    .:~!JPPGBBBGP5J7^" | lolcat             
-echo "    :^~7Y55PP5YJ7~.  .:^." | lolcat         
-echo "    ^:^^:^^^^:.........:~~" | lolcat
+echo "   ╭╮╭━┳━━━┳━━━━┳━━━╮╭╮╭━┳━━━┳━╮╱╭┳╮╭━┳━━━┳━╮╱╭┳━━━╮
+echo "   ┃┃┃╭┫╭━╮┃╭╮╭╮┃╭━╮┃┃┃┃╭┫╭━╮┃┃╰╮┃┃┃┃╭┫╭━╮┃┃╰╮┃┃╭━╮┃
+echo "   ┃╰╯╯┃┃╱┃┣╯┃┃╰┫┃╱┃┃┃╰╯╯┃┃╱┃┃╭╮╰╯┃╰╯╯┃┃╱┃┃╭╮╰╯┃┃╱╰╯
+echo "   ┃╭╮┃┃┃╱┃┃╱┃┃╱┃╰━╯┃┃╭╮┃┃┃╱┃┃┃╰╮┃┃╭╮┃┃╰━╯┃┃╰╮┃┃┃╭━╮
+echo "   ┃┃┃╰┫╰━╯┃╱┃┃╱┃╭━╮┃┃┃┃╰┫╰━╯┃┃╱┃┃┃┃┃╰┫╭━╮┃┃╱┃┃┃╰┻━┃
+echo "   ╰╯╰━┻━━━╯╱╰╯╱╰╯╱╰╯╰╯╰━┻━━━┻╯╱╰━┻╯╰━┻╯╱╰┻╯╱╰━┻━━━╯
 echo 
 gem install lolcat
 clear
