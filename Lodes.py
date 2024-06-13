@@ -14,7 +14,8 @@ def croot():
     os.system("git pull")
 def ikeh_ikeh_kimochi():
     os.system("clear")
-def aahh(s):                                                                                                                                                for c in s + '\n':
+def aahh(s):
+    for c in s + '\n':
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(1./300)
