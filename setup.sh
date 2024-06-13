@@ -87,5 +87,5 @@ echo
 echo
 echo "       [√] install commando done..."
 echo
-echo "     type python Loded.py to continue "
+echo "     type python Lodes.py to continue "
 echo
