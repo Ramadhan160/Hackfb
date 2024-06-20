@@ -51,8 +51,6 @@ echo "────────────█▒░░█▒▒▒▒▓──" 
 echo "─────────────▀▄▄▄▀▄▄▀─" | lolcat
 echo                                                                                                                                                                                   
 echo
-clear
-echo
 echo
 echo "       [√] install commando done..."
 echo
