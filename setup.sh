@@ -34,7 +34,7 @@ echo "   ╰╯╰━┻━━━╯╱╰╯╱╰╯╱╰╯╰╯╰━┻�
 echo 
 gem install lolcat
 clear
-echo      
+echo "    [√] install commando done..."      
 echo "────────────▄▀░░░░░▒▒▒█─" | lolcat
 echo "───────────█░░░░░░▒▒▒█▒█" | lolcat
 echo "──────────█░░░░░░▒▒▒█▒░█" | lolcat
